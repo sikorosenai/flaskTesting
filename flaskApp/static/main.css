@@ -1,0 +1,12 @@
+/*
+CSS HEX
+#1c1c1c - Light Black - Background 
+#ef233cff - Crimson  - Accent
+#fffffc - White - Text
+#282828  - Grey - Onhover
+*/
+
+body {
+    background-color: #1c1c1cff;
+    color: #fffffc; 
+  }
