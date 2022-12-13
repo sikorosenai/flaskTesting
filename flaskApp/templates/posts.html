@@ -1,12 +1,4 @@
 {% extends "base.html" %}
-{% block title %}
-    {% if title %}
-        Flask Blog - {{ post[0].title }}
-    {% else %}
-        Flask Blog
-    {% endif %}
-{% endblock title %}
-
 {% block content %}
     {% for p in post %}
         <h1>{{ p.title }}</h1>
