@@ -9,42 +9,33 @@ CSS HEX
 body {
     background-color: #1c1c1cff;
     color: #fffffc; 
+    font-family: 'JetBrains Mono', monospace;
   }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #1c1c1cff;
+  overflow: hidden;
 }
 
-.logo {
-  text-decoration: none;
+/* Style the links inside the navigation bar */
+.topnav a {
+  border-bottom: 1px solid #ef233cff;
+  float: right;
   color: #fffffc;
-  font-size: 18px;
-}
-
-.nav-buttons {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.nav-buttons li {
-  margin-left: 10px;
-  border-left: 1px solid #ef233cff;
-}
-
-.nav-buttons li:first-child {
-  margin-left: 0;
-  border-left: none;
-}
-
-.nav-buttons a {
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  color: #fffffc;
-  font-size: 14px;
-  display: block;
-  padding: 10px;
+  font-size: 17px;
 }
-  
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #282828;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #ef233cff;
+  color: #1c1c1cff;
+}
